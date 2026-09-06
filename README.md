@@ -89,6 +89,8 @@ Key `Board` methods:
 
 ## Repository structure
 
+```
 .
 ├── connect4_ai.py   # Board + Connect4 classes, heuristic AI, Tkinter GUI
 └── README.md
+```
