@@ -46,10 +46,6 @@ Adding depth-limited minimax on top of the existing `calculateScore()` is the na
 
 ---
 
-Requires Python 3 with Tkinter (bundled on Windows and macOS; `apt install python3-tk` on Debian/Ubuntu). Needs a display — it will not run headless.
-
----
-
 ## Code structure
 
 Single file, two classes:
@@ -84,6 +80,10 @@ cd Connect4-with-Heuristic-AI
 pip install numpy
 python connect4_ai.py
 ```
+
+---
+
+Requires Python 3 with Tkinter (bundled on Windows and macOS; `apt install python3-tk` on Debian/Ubuntu). Needs a display — it will not run headless.
 
 ---
 
