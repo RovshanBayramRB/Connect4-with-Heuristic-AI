@@ -46,17 +46,6 @@ Adding depth-limited minimax on top of the existing `calculateScore()` is the na
 
 ---
 
-## Running it
-
-```bash
-git clone https://github.com/RovshanBayramRB/Connect4-with-Heuristic-AI.git
-cd Connect4-with-Heuristic-AI
-pip install numpy
-python connect4_ai.py
-```
-
----
-
 Requires Python 3 with Tkinter (bundled on Windows and macOS; `apt install python3-tk` on Debian/Ubuntu). Needs a display — it will not run headless.
 
 ---
@@ -84,6 +73,17 @@ Key `Board` methods:
 | `TakingBestMove(grid, piece)` | Move selection |
 | `winCheck(grid, piece)` | Four-in-a-row test, used during search |
 | `check_victory()` | Four-in-a-row test that also highlights the winning line |
+
+---
+
+## Running it
+
+```bash
+git clone https://github.com/RovshanBayramRB/Connect4-with-Heuristic-AI.git
+cd Connect4-with-Heuristic-AI
+pip install numpy
+python connect4_ai.py
+```
 
 ---
 
