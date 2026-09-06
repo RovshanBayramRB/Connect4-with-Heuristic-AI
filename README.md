@@ -49,8 +49,8 @@ Adding depth-limited minimax on top of the existing `calculateScore()` is the na
 ## Running it
 
 ```bash
-git clone https://github.com/RovshanBayramRB/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/RovshanBayramRB/Connect4-with-Heuristic-AI.git
+cd Connect4-with-Heuristic-AI
 pip install numpy
 python connect4_ai.py
 ```
